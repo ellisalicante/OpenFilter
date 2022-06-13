@@ -1,36 +1,15 @@
-# OpenFilter
+# OpenFilter: A Framework to Democratize Research Access to Social Media AR Filters
 
-## Requirements:
-1.
-2.
-3.
+### 1. Open filter: the framework
+Most of the AR filters available on social media platforms --such as Instagram, TikTok, SnapChat-- can only be applied in \emph{real-time} on selfie images captured from the camera. Hence, it is challenging to carry out quantitative and systematic research on such filters. OpenFilter fulfills such a need by enabling the application of AR filters on publicly available datasets of faces. 
 
-[put pipeline image here with short explanation]
+Please find more information here: **put link of the github folder**
 
-## 1. Instructions
-#### 1.1 Installation
-(any needed detail regarding the installation)
+### 2. Beautified datasets
+The available beautified datasets (FairBeauty and B-LFW) are available at: **PUT LINK**.
+Please find more information here: **put link of the github folder**
 
-#### 1.2 Set-up
-(necessary settings)
-(putting the files in the right position)
-(positioning the different pieces of the framework)
-
-[put image here of how it should look like]
-
-#### 1.3 Error handling
-(explanation and reference to the code)
-
-## 2. Beautified Datasets
-(short introduction and link to the datasets)
-**FairBeauty & B-LFW**: https://drive.google.com/drive/folders/1ukx8GS9Qp3PgUJ6mQW7N70EOARSBbzsd
-
-#### 2.1. Experiments
-(short explanation of the experiments)
-(some needed implementation details)
-(reference to the pieces of the code)
-
-## 3. License and attribution
+### 3. License and attribution
 CC BY-NC 4.0
 The framework and the datasets are part of a scientific paper currently under review for **NAME OF THE CONFERENCE**, under the title **TITLE OF THE PAPER**.
 
