@@ -6,7 +6,7 @@ Most of the AR filters available on social media platforms --such as Instagram, 
 Please find more information here: **put link of the github folder**
 
 ### 2. Beautified datasets
-The available beautified datasets (FairBeauty and B-LFW) are available at: **PUT LINK**.
+Through OpenFilter, we have beautified two datasets (FairBeauty and B-LFW), available at: **PUT LINK**.
 Please find more information here: **put link of the github folder**
 
 ### 3. License and attribution
