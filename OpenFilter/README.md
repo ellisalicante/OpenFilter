@@ -5,7 +5,7 @@
 2.
 3.
 
-[put pipeline image here with short explanation]
+![OpenFilter pipeline. A machine runs the targeted social media application on an Android emulator. An image from the dataset is projected on the camera opened through the social media application. A filter is directly applied to image. This Figure is designed using resources from Flaticon.com .](assets/pipeline.png)
 
 ## 1. Instructions
 #### 1.1 Installation
