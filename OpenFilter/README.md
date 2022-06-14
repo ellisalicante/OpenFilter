@@ -13,18 +13,18 @@ The Android emulator runs on the machine, where the social media application tar
 
 ## 1. Instructions for use
 #### 1.1 Installation
-In our implementation, we run OpenFilter using **put name of the emulator** (put link of the emulator page). On the virtual phone, researchers can download any targeted social media application for research (in our implementation, we refer to Instagram). Once the application is downloaded, the researcher should log in or create a new account.
+In our implementation, we run OpenFilter using BlueStacks 5.7 (www.bluestacks.com). On the virtual phone, researchers can download any targeted social media application for research (in our implementation, we refer to Instagram). Once the application is downloaded, the researcher should log in or create a new account.
 
 (put image of instagram login page on the android emulator)
 
-The researcher should also download **put name of the virtual camera** (put link of the virtual camera page for download). The aim of this virtual camera is to by-pass the issue related to the application of AR-based filters only on live image. 
+The researcher should also download ManyCam 7.10 (www.manycam.com). The aim of this virtual camera is to by-pass the issue related to the application of AR-based filters only on live image. 
 
 The process of the application of these filters is automatized through an auto-clicker script, available in our file **put name of the file**.
 
 #### 1.2 Set-up
 (necessary settings, expecially regarding the camera, the display, and all these things! It would be good to have a comprehensive yet synthetic list.)
 
-Being based on an auto-clicker system, the positioning of the objects on the display is key for the functioning of the OpenFilter. In the Figure below, we provide a screenshot of the ideal set-up on a **put resolution of the machine**
+Being based on an auto-clicker system, the positioning of the objects on the display is key for the functioning of the OpenFilter. In the Figure below, we provide a screenshot of the ideal set-up on a 1920 x 1080 monitor.
 
 (put image here of how it should look like)
 
@@ -32,10 +32,10 @@ Note that the Android emulator must be positioned at the left-hand side of the s
 
 We strongly encourage our readers to deactivate notifications while running OpenFilter. Sudden pop-ups could damage the final results. 
 
-(explain why. do we take screenshots finally?)
+(explain why. do we take screenshots finally? YES!)
 
 #### 1.3 Error handling
-The current version of OpenFilter occasionally might create some errors while running. In the preparation of our datasets, we encountered two types of errors: (1) OpenFilter does not upload an image on the camera; and (2) OpenFilter processes the same image multiple times. Under the name **put file name**, we share the code to automatically detect these errors and encourage our readers to perform error checks and corrections when creating new datasets using OpenFilter.
+The current version of OpenFilter occasionally might create some errors while running. In the preparation of our datasets, we encountered two types of errors: (1) ManyCam does not load an image successfully and displays a noise screen; and (2) ManyScren gets stuck and processes the same image multiple times. Under the name **put file name**, we share the code to automatically detect these errors and encourage our readers to perform error checks and corrections when creating new datasets using OpenFilter.
 
 (put some more details regarding how to use these files)
 
