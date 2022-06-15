@@ -22,7 +22,7 @@ The process of the application of these filters is automatized through an auto-c
 
 Being based on an auto-clicker system, the positioning of the objects on the display is key for the functioning of the OpenFilter. In the Figure below, we provide a screenshot of the ideal set-up on a 1920 x 1080 pixels monitor.
 
-(put image here of how it should look like)
+![OpenFilter screen setup.](assets/setup_screen.png)
 
 Note that the Android emulator must be positioned at the left-hand side of the screen, aligned with the borders of the screen (left, top, bottom). The interface of the virtual camera, instead, has to be positioned on the right-hand side, leaving space for the command line at the bottom. It is extremely relevant that the width of the virtual camera window leaves the targeted file positioning (highlighted in red in the image) free, so that the autoclicker can use that space to temporarily save the images.
 
