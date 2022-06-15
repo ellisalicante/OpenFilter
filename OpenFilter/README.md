@@ -19,12 +19,19 @@ The process of the application of these filters is automatized through an auto-c
 
 #### 1.2 Set-up
 (necessary settings, expecially regarding the camera, the display, and all these things! It would be good to have a comprehensive yet synthetic list.)
+Ensure the following settings are properly set: in ManyCam, the resolution must be set to 720p with 30fps; in Bluestacks, under the Display Settings, the resolution must be set to 2560 x 1440 pixels with 320 DPI; finally ManyCam Virtual Webcam must be set as the default one on the machine. 
 
 Being based on an auto-clicker system, the positioning of the objects on the display is key for the functioning of the OpenFilter. In the Figure below, we provide a screenshot of the ideal set-up on a 1920 x 1080 pixels monitor.
 
 ![OpenFilter screen setup.](assets/setup_screen.png)
 
-Note that the Android emulator must be positioned at the left-hand side of the screen, aligned with the borders of the screen (left, top, bottom). The interface of the virtual camera, instead, has to be positioned on the right-hand side, leaving space for the command line at the bottom. It is extremely relevant that the width of the virtual camera window leaves the targeted file positioning (highlighted in red in the image) free, so that the autoclicker can use that space to temporarily save the images.
+Note that the Android emulator must be positioned at the left-hand side of the screen, aligned with the borders of the screen (left, top, bottom). The interface of the virtual camera, instead, has to be positioned on the right-hand side, leaving space for the command line at the bottom.
+
+After cloning our directory and moving there your current location, one empty folder named "swapper" must be created and open to be positioned in the bottom right corner of the screen, as showed in the image above. In this way, the autoclicker can use that folder to temporarily store the image being processed and load it into the virtual camera.
+
+Once everything is positioned like in figure, Instagram camera must be opened and the first filter in the sequence must be selected. Finally, our script can be executed through the following command:
+
+(insert and comment command)
 
 We strongly encourage our readers to deactivate notifications while running OpenFilter. Sudden pop-ups could damage the final results. OpenFilter saves the filtered images by taking screenshot, rather than downloading the image directly from the application. This is motivated by the will of accelerating the process: very often, images treated with AR filters are downloaded as videos, causing remarkable delays in the saving process. OpenFilter is designed to filter large collection of images and, as a consequence, the fluidity of the system is one of the main requirements.
 
