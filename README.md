@@ -7,6 +7,7 @@ Please find more information [in this folder](https://github.com/ellisalicante/O
 
 ### 2. Beautified datasets
 Through OpenFilter, we have beautified two datasets (FairBeauty and B-LFW), available [online](https://fairbeauty.z6.web.core.windows.net/).
+
 Please find more information [in this folder](https://github.com/ellisalicante/OpenFilter/tree/main/Datasets).
 
 ### 3. License and attribution
