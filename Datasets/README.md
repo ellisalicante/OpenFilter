@@ -1,7 +1,9 @@
 # Beautified Datasets
 
+Our beautified datasets are available [online](https://fairbeauty.z6.web.core.windows.net/) and shared with license CC BY-NC 4.0.
+
 ## FairBeauty
-FairBeauty is a beautified version of the [FairFace dataset](https://github.com/joojs/fairface), a dataset promoting algorithmic fairness in Computer Vision systems. The choice of this dataset is motivated by its focus on diversity and our will to be representative of the population of Instagram, without biasing the results. Eight popular, AR beauty filters are applied on equal portions of the original dataset. **PUT LINK TO FAIRBEAUTY SPECIFICALLY**
+FairBeauty is a beautified version of the [FairFace dataset](https://github.com/joojs/fairface), a dataset promoting algorithmic fairness in Computer Vision systems. The choice of this dataset is motivated by its focus on diversity and our will to be representative of the population of Instagram, without biasing the results. Eight popular, AR beauty filters are applied on equal portions of the original dataset.
 
 ![Filters example.](assets/filters_example.png)
 
@@ -11,7 +13,7 @@ The AR beauty filters detect the position of the faces in an original image and 
 
 
 ## B-LFW
-B-LFW is a beautified version of the LFW (Labeled Faces in the Wild) dataset, a public benchmark dataset for face verification, designed for studying and evaluating unconstrained face recognition systems. We have beautified [LFW aligned at 112x112 pixels](https://github.com/ZhaoJ9014/face.evoLVe), using the same eight popular Instagram beauty filters, using different filters on different images from the same individuals. **PUT LINK TO B-LFW SPECIFICALLY**
+B-LFW is a beautified version of the LFW (Labeled Faces in the Wild) dataset, a public benchmark dataset for face verification, designed for studying and evaluating unconstrained face recognition systems. We have beautified [LFW aligned at 112x112 pixels](https://github.com/ZhaoJ9014/face.evoLVe), using the same eight popular Instagram beauty filters, using different filters on different images from the same individuals.
 
 The analysis of the B-LFW dataset may lead to new insights on understanding the impact of such filters on face recognition, particularly when no explicit occlusion is applied. We evaluate the performance of three state-of-the-art models (CurricularFace, ElasticFace and MagFace) on face recognition both on each single beauty filter (applied to LFW) and on the B-LFW dataset (in which different beauty filters are applied on different images of the same individual). The code for these experiments is available in files **put names of the files**.
 
