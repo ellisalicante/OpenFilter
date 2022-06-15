@@ -6,7 +6,7 @@ Most of the AR filters available on social media platforms can only be applied i
 Please find more information [in this folder](https://github.com/ellisalicante/OpenFilter/tree/main/OpenFilter).
 
 ### 2. Beautified datasets
-Through OpenFilter, we have beautified two datasets (FairBeauty and B-LFW), available at: **PUT LINK**.
+Through OpenFilter, we have beautified two datasets (FairBeauty and B-LFW), available [online](https://fairbeauty.z6.web.core.windows.net/).
 Please find more information [in this folder](https://github.com/ellisalicante/OpenFilter/tree/main/Datasets).
 
 ### 3. License and attribution
