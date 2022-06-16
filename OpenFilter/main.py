@@ -2,12 +2,13 @@ import random
 import time
 import numpy as np
 import os
+import argparse
 from PIL import Image
 
 import pyautogui as auto
 
 positions = {
-    "new_file": (700,50),
+    "new_file": (1220,750),
     "many_cam": (1150,250),
     "many_cam_confirm": (1180,280),
     "screen": (42,305,510,510),
@@ -31,15 +32,13 @@ def h_padding(img):
     return background
 
 def v_padding(img):
-    background = Image.new('RGB', (img.size[0], img.size[1] + 150*img.size[1]//285))#46//27))
+    background = Image.new('RGB', (img.size[0], img.size[1] + 150*img.size[1]//285))
     background.paste(img, (0, (background.size[1] - img.size[1])//2))
     return background
     
-def main():
-    path = "train_fair"
-    output = "train_fair_beauty"
+def main(path, output, n_filters, move_right):
     filter = 0
-    for img_folder in sorted(os.listdir(path)):#[:len(os.listdir(path))//2 + 1][::-1]:    
+    for img_folder in sorted(os.listdir(path)):
         print(img_folder)
         out_folder = os.path.join(output, img_folder)
         img_folder = os.path.join(path, img_folder)
@@ -47,7 +46,7 @@ def main():
             os.makedirs(out_folder)
         if len(os.listdir(img_folder)) == len(os.listdir(out_folder)):
             filter += 1
-            if filter == 8:
+            if filter == n_filters:
                 filter = 0
             continue
         print("FILTER", filter)
@@ -60,7 +59,7 @@ def main():
             img = Image.open(img_path)
             img_size = img.size
             img = v_padding(h_padding(img))
-            img.save(img_name)
+            img.save(os.path.join("swapper", img_name))
             sleep(2000)
             if iter == 0:
                 sleep(2000)
@@ -70,29 +69,29 @@ def main():
             sleep(2000)
             screenshot = auto.screenshot(region=positions["screen"]).resize(img_size, Image.ANTIALIAS)
             screenshot.save(out_path)            
-            os.remove(img_name)
+            os.remove(os.path.join("swapper", img_name))
         
         filter += 1
-        if filter == 8:
+        if filter == n_filters:
             filter = 0
-            auto.click(positions["right_filter"])
-            sleep(3000)
-            auto.click(positions["right_filter"])
-            sleep(3000)
-            auto.click(positions["right_filter"])
-            sleep(3000)
-            auto.click(positions["right_filter"])
-            sleep(3000)
-            auto.click(positions["right_filter"])
-            sleep(3000)
-            auto.click(positions["right_filter"])
-            sleep(3000)
-            auto.click(positions["right_filter"])
+            if n_filters == 1:
+                continue
+            for _ in range(n_filters - 2):
+                auto.click(positions["right_filter"] if not move_right else positions["left_filter"])
+                sleep(3000)
+            auto.click(positions["right_filter"] if not move_right else positions["left_filter"])
             sleep(20000)
         else:
-            auto.click(positions["left_filter"])
+            auto.click(positions["left_filter"] if not move_right else positions["right_filter"])
             sleep(20000)
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(
+        description='Parses command.'
+    )
+    parser.add_argument('--dataset', dest='path', required=True)
+    parser.add_argument('--output', dest='output', required=True)
+    parser.add_argument('--n_filters', dest='n_filters', type=int, default=8)
+    parser.add_argument('--move_right', dest='move_right', action='store_true')
+    main(**vars(parser.parse_args()))
