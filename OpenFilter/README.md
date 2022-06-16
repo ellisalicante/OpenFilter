@@ -28,8 +28,8 @@ Note that the Android emulator must be positioned at the left-hand side of the s
 
 Through the command line, execute the following commands:
 
-> git clone https://github.com/ellisalicante/OpenFilter.git
-> cd OpenFilter/OpenFilter
+> git clone https://github.com/ellisalicante/OpenFilter.git<br />
+> cd OpenFilter/OpenFilter<br />
 > mkdir swapper
 
 These commands create one empty folder named "swapper", which must be positioned in the bottom right corner of the screen, as showed in the image above. In this way, the autoclicker can use that folder to temporarily store the image being loaded into the virtual camera.
