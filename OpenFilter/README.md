@@ -13,7 +13,7 @@ The Android emulator runs on the machine, where the social media application tar
 
 ## 1. Instructions for use
 #### 1.1 Installation
-In our implementation, we run OpenFilter using BlueStacks 5.7 (www.bluestacks.com) as Android emulator. On the virtual phone, researchers can download any targeted social media application for research (in our implementation, we refer to Instagram). Once the application is downloaded, the researcher should log in or create a new account, saving the targeted AR filters among the favorites. In addition, they should also download ManyCam 7.10 (www.manycam.com), a virtual camera software. The aim of this virtual camera is to by-pass the issue related to the application of AR-based filters on existing images. 
+In our implementation, we run OpenFilter using BlueStacks 5.7 (www.bluestacks.com) as Android emulator. On the virtual phone, researchers can download any targeted social media application (in our implementation, we refer to Instagram). Once the application is downloaded, the researcher should log in or create a new account, saving the targeted AR filters among the favorites. In addition, they should also download ManyCam 7.10 (www.manycam.com), a virtual camera software. The aim of this virtual camera is to by-pass the issue related to the application of AR-based filters on existing images. 
 
 The process of the application of these filters is automatized through an auto-clicker script, available in our file main.py.
 
@@ -38,8 +38,8 @@ The Instagram camera must be opened through the "new story" icon on the applicat
 
 > python .\main.py --dataset DATASET_PATH --output OUTPUT_PATH
 
-**--dataset** is the path of the dataset that the user wants to filter through OpenFilter.<br />
-**--output** is the path where the filtered images are saved. Both the dataset and the output folders should be organized in sub-directories. Through our code, all the images in a sub-directory are filtered with the same filter. Once the images in a sub-folder are all processed, the system moves on to the next sub-folder, applying the next filter (following the pre-saving order on the social media interface).<br />
+**--dataset** is the path of the dataset that the user wants to filter through OpenFilter. This folder should be organized in sub-directories. Through our code, all the images in a sub-directory are filtered with the same filter. Once the images in a sub-folder are all processed, the system moves on to the next sub-folder, applying the next filter (following the pre-saving order on the social media interface).<br />
+**--output** is the path where the filtered images are saved. <br />
 **--n_filters (default=8)** is the number of pre-saved filters (targeted by the user).<br /> 
 **--move_right (default=False)** is the direction to follow for changing the filter (i.e. the order in which they have been pre-saved on the application). In our experiments, we have used 8 filters, showed in the Instagram interface, from right (filter 0) to left (filter 7). In the image above, you can notice we start the script from our first filter (Pretty by @herusugiarta), with the others located on its left.
 
@@ -53,17 +53,15 @@ In particular, the script must be launched as follows:
 > python .\spot_errors.py --folder FOLDER_PATH
 
 **--folder** is the path of the folder containing the beautified images.<br />
-**--accepted_tuples (default=False)** gives the possibility to the user of feeding a white list of known repetitions into the script. This is done by appending into accepted_tuples.txt image paths following this format:
+**--accepted_tuples (default=False)** gives the possibility of manually feeding a white list of known repetitions into the script. This is done by appending into accepted_tuples.txt image paths following this format:
 
 IMAGE_PATH_1 IMAGE_PATH_2<br />
 ...
 
-The script will print to console a list of identified errors, making a distinction between noise screens (1) and repetitions (2). Also, it will mark with the keywork "MAYBE" those intermediate cases which cannot be fully trusted. After identifying the images unsuccessfully beautified, the user can re-organize them into a new dataset to run OpenFilter once again, until no mistakes are spotted.
-
-
-(put some more details regarding how to use these files)
+The script will print to console a list of identified errors, making a distinction between noisy screens (1) and repetitions (2). Also, it will mark with the keywork "MAYBE" those intermediate cases which cannot be fully trusted. After identifying the images unsuccessfully beautified, the user can re-organize them into a new directory to run OpenFilter once again, until no mistakes are spotted.
 
 ## 2. License and attribution
-CC BY-NC 4.0
 The framework and the datasets are part of a scientific paper currently under review for the 36th Conference on Neural Information Processing Systems (NeurIPS 2022) Track on Datasets and Benchmarks., under the title "OpenFilter: A Framework to Democratize Research Access to Social Media AR Filters", by Piera Riccio, Bill Psomas, Francesco Galati, Francisco Escolano, Thomas Hofmann and Nuria Oliver.
+
+The code of OpenFilter is shared under GNU General Public License, version 2.
 
