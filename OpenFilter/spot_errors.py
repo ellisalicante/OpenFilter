@@ -1,8 +1,5 @@
-import random
-import time
 import numpy as np
 import os
-import shutil
 from PIL import Image
 import argparse
     
