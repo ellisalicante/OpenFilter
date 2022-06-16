@@ -1,0 +1,7 @@
+models/*
+backbone/__pycache__/
+head/__pycache__/
+loss/__pycache__/
+util/__pycache__/
+*.pyc
+__pycache__/

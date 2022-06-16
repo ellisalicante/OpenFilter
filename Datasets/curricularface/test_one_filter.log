@@ -1,0 +1,28 @@
+Training: 2022-06-04 14:14:32,685-rank_id: 0
+Training: 2022-06-04 14:14:32,685-Running on: lfw_align_112_png_beauty08
+Training: 2022-06-04 14:16:28,153-Evaluation: lfw Acc: 0.9893333333333334, Sum of Eucl Dists: 3388.8623540842577, Best Threshold: 1.46
+Training: 2022-06-04 14:16:35,652-rank_id: 0
+Training: 2022-06-04 14:16:35,652-Running on: lfw_align_112_png_beauty09
+Training: 2022-06-04 14:18:23,405-Evaluation: lfw Acc: 0.9933333333333334, Sum of Eucl Dists: 3443.3906483455276, Best Threshold: 1.4780000000000002
+Training: 2022-06-04 14:18:31,428-rank_id: 0
+Training: 2022-06-04 14:18:31,428-Running on: lfw_align_112_png_beauty10
+Training: 2022-06-04 14:20:31,538-Evaluation: lfw Acc: 0.9890000000000001, Sum of Eucl Dists: 3567.577664201102, Best Threshold: 1.5130000000000003
+Training: 2022-06-04 14:20:39,072-rank_id: 0
+Training: 2022-06-04 14:20:39,072-Running on: lfw_align_112_png_beauty11
+Training: 2022-06-04 14:22:39,089-Evaluation: lfw Acc: 0.9913333333333334, Sum of Eucl Dists: 3498.1221215466408, Best Threshold: 1.4920000000000002
+Training: 2022-06-04 14:22:41,537-rank_id: 0
+Training: 2022-06-04 14:22:41,537-Running on: lfw_align_112_png_beauty12
+Training: 2022-06-04 14:24:28,314-Evaluation: lfw Acc: 0.9913333333333334, Sum of Eucl Dists: 3396.668605744171, Best Threshold: 1.456
+Training: 2022-06-04 14:24:31,168-rank_id: 0
+Training: 2022-06-04 14:24:31,168-Running on: lfw_align_112_png_beauty13
+Training: 2022-06-04 14:26:19,272-Evaluation: lfw Acc: 0.9918333333333333, Sum of Eucl Dists: 3461.279237834832, Best Threshold: 1.496
+Training: 2022-06-04 14:26:21,874-rank_id: 0
+Training: 2022-06-04 14:51:31,562-Running on: lfw_align_112_png_beauty14
+Training: 2022-06-04 14:53:36,912-Evaluation: lfw Acc: 0.9808333333333332, Sum of Eucl Dists: 3370.2901754227396, Best Threshold: 1.451
+Training: 2022-06-04 14:53:50,894-rank_id: 0
+Training: 2022-06-04 14:53:50,894-Running on: lfw_align_112_png_beauty15
+Training: 2022-06-04 14:56:02,874-Evaluation: lfw Acc: 0.9606666666666668, Sum of Eucl Dists: 3415.567239556516, Best Threshold: 1.495
+Training: 2022-06-06 18:31:41,653-rank_id: 0
+Training: 2022-06-06 18:31:41,653-Running on: lfw_align_112_png_beauty_random_final
+Training: 2022-06-06 18:33:37,289-Evaluation: lfw Acc: 0.9938333333333332, Sum of Eucl Dists: 3319.8864300652776, Best Threshold: 1.5500000000000003
+Training: 2022-06-07 21:51:15,115-rank_id: 0
