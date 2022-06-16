@@ -55,8 +55,7 @@ In particular, the script must be launched as follows:
 **--folder** is the path of the folder containing the beautified images.
 **--accepted_tuples (default=False)** gives the possibility to the user of feeding a white list of known repetitions into the script. This is done by appending into accepted_tuples.txt image paths following this format:
 
-IMAGE_PATH_1 IMAGE_PATH_2
-
+IMAGE_PATH_1 IMAGE_PATH_2<br />
 ...
 
 The script will print to console a list of identified errors, making a distinction between noise screens (1) and repetitions (2). Also, it will mark with the keywork "MAYBE" those intermediate cases which cannot be fully trusted. After identifying the images unsuccessfully beautified, the user can re-organize them into a new dataset to run OpenFilter once again, until no mistakes are spotted.
