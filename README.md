@@ -11,7 +11,7 @@ Through OpenFilter, we have beautified two datasets (FairBeauty and B-LFW), avai
 Please find more information [in this folder](https://github.com/ellisalicante/OpenFilter/tree/main/Datasets).
 
 ### 3. License and attribution
-The framework and the datasets are part of a scientific paper currently under review for the 36th Conference on Neural Information Processing Systems (NeurIPS 2022) Track on Datasets and Benchmarks., under the title "OpenFilter: A Framework to Democratize Research
+The framework and the datasets are part of a scientific paper currently under review for the 36th Conference on Neural Information Processing Systems (NeurIPS 2022) Track on Datasets and Benchmarks, under the title "OpenFilter: A Framework to Democratize Research
 Access to Social Media AR Filters", by Piera Riccio, Bill Psomas, Francesco Galati, Francisco Escolano, Thomas Hofmann and Nuria Oliver.
 
 The datasets are shared under license CC BY-NC 4.0.
