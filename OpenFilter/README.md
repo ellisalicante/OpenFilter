@@ -32,21 +32,34 @@ Through the command line, execute the following commands:
 > cd OpenFilter/OpenFilter
 > mkdir swapper
 
-These commands create one empty folder named "swapper", which must be positioned in the bottom right corner of the screen, as showed in the image above. In this way, the autoclicker can use that folder to temporarily store the image being processed and load it into the virtual camera.
+These commands create one empty folder named "swapper", which must be positioned in the bottom right corner of the screen, as showed in the image above. In this way, the autoclicker can use that folder to temporarily store the image being loaded into the virtual camera.
 
 The Instagram camera must be opened through the "new story" icon on the application (top-left corner), hence selecting the first available AR filter among the pre-saved ones. At this point, everything is ready to run the code:
 
 > python .\main.py --dataset DATASET_PATH --output OUTPUT_PATH
 
-**--dataset** is the path of the dataset that the user wants to filter through OpenFilter. This folder should be organized in sub-directories. Through our code, all the images in a sub-directory are filtered with the same filter. Once the images in a sub-folder are all processed, the system moves on to the next sub-folder, applying the next filter (following the pre-saving order on the social media interface).  
-**--output** is the path where the filtered images are saved.   
-**--n_filters (default = 8)** is the number of pre-saved filters (targeted by the user).  
-**--move_right (default=False)** is the direction to follow for changing the filter (i.e. the order in which they have been pre-saved on the application). In our experiments, we have used 8 filters, showed in the Instagram interface, from right (filter 0) to left (filter 7). In the image above, you can notice we start the script from our first filter (Pretty by @herusugiarta), with the others located on its left. 
+**--dataset** is the path of the dataset that the user wants to filter through OpenFilter.  
+**--output** is the path where the filtered images are saved. Both the dataset and the output folders should be organized in sub-directories. Through our code, all the images in a sub-directory are filtered with the same filter. Once the images in a sub-folder are all processed, the system moves on to the next sub-folder, applying the next filter (following the pre-saving order on the social media interface).  
+**--n_filters, default = 8** is the number of pre-saved filters (targeted by the user).  
+**--move_right, default=False** is the direction to follow for changing the filter (i.e. the order in which they have been pre-saved on the application). In our experiments, we have used 8 filters, showed in the Instagram interface, from right (filter 0) to left (filter 7). In the image above, you can notice we start the script from our first filter (Pretty by @herusugiarta), with the others located on its left. 
 
 We strongly encourage our readers to deactivate notifications while running OpenFilter. Sudden pop-ups could damage the final results. OpenFilter saves the filtered images by taking screenshot, rather than downloading the image directly from the application. This is motivated by the will of accelerating the process: very often, images treated with AR filters are downloaded as videos, causing remarkable delays in the saving process. OpenFilter is designed to filter large collection of images and, as a consequence, the fluidity of the system is one of the main requirements.
 
 #### 1.3 Error handling
-The current version of OpenFilter occasionally might create some errors while running. In the preparation of our datasets, we encountered two types of errors: (1) ManyCam does not load an image successfully and displays a noisy screen; and (2) ManyScren gets stuck and processes the same image multiple times. Under the name **put file name**, we share the code to automatically detect these errors and encourage our readers to perform error checks and corrections when creating new datasets using OpenFilter.
+The current version of OpenFilter occasionally might create some errors while running. In the preparation of our datasets, we encountered two types of errors: (1) ManyCam does not load an image successfully and displays a noisy screen; and (2) ManyScren gets stuck and processes the same image multiple times. Under the name spot_errors.py, we share the code to automatically detect these errors and encourage our readers to perform error checks and corrections when creating new datasets using OpenFilter.
+
+In particular, the script must be launched as follows:
+
+> python .\spot_errors.py --folder FOLDER_PATH
+
+**--folder** is the path of the folder containing the beautified images.
+**--accepted_tuples (default=False)** gives the possibility to the user of feeding a white list of known repetitions into the script. This is done by appending into accepted_tuples.txt image paths following this format:
+
+IMAGE_PATH_1 IMAGE_PATH_2
+...
+
+The script will print to console a list of identified errors, making a distinction between noise screens (1) and repetitions (2). Also, it will mark with the keywork "MAYBE" those intermediate cases which cannot be fully trusted. After identifying the images unsuccessfully beautified, the user can re-organize them into a new dataset to run OpenFilter once again, until no mistakes are spotted.
+
 
 (put some more details regarding how to use these files)
 
