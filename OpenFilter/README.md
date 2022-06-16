@@ -38,7 +38,7 @@ The Instagram camera must be opened through the "new story" icon on the applicat
 
 > python .\main.py --dataset DATASET_PATH --output OUTPUT_PATH
 
-**--dataset** is the path of the dataset that the user wants to filter through OpenFilter.
+**--dataset** is the path of the dataset that the user wants to filter through OpenFilter.\\
 **--output** is the path where the filtered images are saved.
 **--n_filters, default = 8** is the number of pre-saved filters (targeted by the user).
 **--move_right, default=False** is the direction to follow for changing the filter (i.e. the order in which they have been pre-saved on the application). In our experiments, we have used 8 filters, showed in the Instagram interface, from right (filter 0) to left (filter 7). In the image above, you can notice we start the script from our first filter (Pretty by @herusugiarta), with the others located on its left.
