@@ -18,8 +18,7 @@ In our implementation, we run OpenFilter using BlueStacks 5.7 (www.bluestacks.co
 The process of the application of these filters is automatized through an auto-clicker script, available in our file main.py.
 
 #### 1.2 Set-up
-(necessary settings, expecially regarding the camera, the display, and all these things! It would be good to have a comprehensive yet synthetic list.)
-Ensure the following settings are properly set: in ManyCam, the resolution must be set to 720p with 30fps; in Bluestacks, under the Display Settings, the resolution must be set to 2560 x 1440 pixels with 320 DPI; finally ManyCam Virtual Webcam must be set as the default one on the machine. 
+Please, ensure the following settings are properly set: in ManyCam, the resolution must be set to 720p with 30fps; in Bluestacks, under the Display Settings, the resolution must be set to 2560 x 1440 pixels with 320 DPI; finally ManyCam Virtual Webcam must be set as the default one on the machine. 
 
 Being based on an auto-clicker system, the positioning of the objects on the display is key for the functioning of the OpenFilter. In the Figure below, we provide a screenshot of the ideal set-up on a 1920 x 1080 pixels monitor.
 
