@@ -26,11 +26,19 @@ Being based on an auto-clicker system, the positioning of the objects on the dis
 
 Note that the Android emulator must be positioned at the left-hand side of the screen, aligned with the borders of the screen (left, top, bottom). The interface of the virtual camera, instead, has to be positioned on the right-hand side, leaving space for the command line at the bottom.
 
-After cloning our directory and moving there your current location, one empty folder named "swapper" must be created and open to be positioned in the bottom right corner of the screen, as showed in the image above. In this way, the autoclicker can use that folder to temporarily store the image being processed and load it into the virtual camera.
+Through the command line, execute the following commands:
+
+> git clone https://github.com/ellisalicante/OpenFilter.git
+> cd OpenFilter/OpenFilter
+> mkdir swapper
+
+These commands create one empty folder named "swapper", which must be open to be positioned in the bottom right corner of the screen, as showed in the image above. In this way, the autoclicker can use that folder to temporarily store the image being processed and load it into the virtual camera.
 
 Once everything is positioned like in figure, Instagram camera must be opened and the first filter in the sequence must be selected. Finally, our script can be executed through the following command:
 
-(insert and comment command)
+> python .\main.py --dataset DATASET_PATH --output OUTPUT_PATH
+
+Apart from providing the paths of the dataset to be beautified (--dataset) and of the output directory where the beautified images will be stored (--output), the user can also set the total number of filters (--n_filters, default=8) and the direction of consecutive filters (--move_right, default=False). In our experiments, we have used 8 filters, showed in the Instagram interface from right (filter 0) to left (filter 7). In the image above, you can notice we start the script from our first filter (Pretty by @herusugiarta), with the others located on its left.
 
 We strongly encourage our readers to deactivate notifications while running OpenFilter. Sudden pop-ups could damage the final results. OpenFilter saves the filtered images by taking screenshot, rather than downloading the image directly from the application. This is motivated by the will of accelerating the process: very often, images treated with AR filters are downloaded as videos, causing remarkable delays in the saving process. OpenFilter is designed to filter large collection of images and, as a consequence, the fluidity of the system is one of the main requirements.
 
