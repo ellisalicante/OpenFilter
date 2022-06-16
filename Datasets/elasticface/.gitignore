@@ -1,0 +1,13 @@
+output/
+output_features/
+output_features_clean/
+cmc_roc_results/
+.idea
+.DS_Store
+models/*pth
+backbones/__pycache__/
+config/__pycache__/
+eval/__pycache__/
+utils/__pycache__/
+__pycache__/
+*.pyc

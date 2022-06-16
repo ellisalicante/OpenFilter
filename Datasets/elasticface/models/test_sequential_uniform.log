@@ -1,0 +1,47 @@
+Training: 2022-06-03 15:52:29,083-Running on: lfw_align_112_png_beauty00
+Training: 2022-06-03 15:56:18,406-[lfw][295672]Sum of Euclidean dists: 3414.625110
+Training: 2022-06-03 15:56:18,412-[lfw][295672]XNorm: 23.112371
+Training: 2022-06-03 15:56:18,413-[lfw][295672]Accuracy-Flip: 0.99583+-0.00291
+Training: 2022-06-03 15:56:18,413-[lfw][295672]Accuracy-Highest: 0.99583
+Training: 2022-06-03 15:56:27,770-rank_id: 0
+Training: 2022-06-03 15:56:27,770-Running on: lfw_align_112_png_beauty01
+Training: 2022-06-03 16:00:18,809-[lfw][295672]Sum of Euclidean dists: 3374.465748
+Training: 2022-06-03 16:00:18,813-[lfw][295672]XNorm: 23.124343
+Training: 2022-06-03 16:00:18,813-[lfw][295672]Accuracy-Flip: 0.99350+-0.00337
+Training: 2022-06-03 16:00:18,813-[lfw][295672]Accuracy-Highest: 0.99350
+Training: 2022-06-03 16:00:27,871-rank_id: 0
+Training: 2022-06-03 16:00:27,871-Running on: lfw_align_112_png_beauty02
+Training: 2022-06-03 16:04:13,664-[lfw][295672]Sum of Euclidean dists: 3313.339280
+Training: 2022-06-03 16:04:13,668-[lfw][295672]XNorm: 23.132077
+Training: 2022-06-03 16:04:13,668-[lfw][295672]Accuracy-Flip: 0.99333+-0.00342
+Training: 2022-06-03 16:04:13,668-[lfw][295672]Accuracy-Highest: 0.99333
+Training: 2022-06-03 16:04:26,064-rank_id: 0
+Training: 2022-06-03 16:04:26,064-Running on: lfw_align_112_png_beauty03
+Training: 2022-06-03 16:08:16,339-[lfw][295672]Sum of Euclidean dists: 3374.282566
+Training: 2022-06-03 16:08:16,344-[lfw][295672]XNorm: 23.136301
+Training: 2022-06-03 16:08:16,344-[lfw][295672]Accuracy-Flip: 0.98933+-0.00958
+Training: 2022-06-03 16:08:16,344-[lfw][295672]Accuracy-Highest: 0.98933
+Training: 2022-06-03 16:08:28,888-rank_id: 0
+Training: 2022-06-03 16:08:28,888-Running on: lfw_align_112_png_beauty04
+Training: 2022-06-03 16:12:18,795-[lfw][295672]Sum of Euclidean dists: 3479.611396
+Training: 2022-06-03 16:12:18,799-[lfw][295672]XNorm: 23.109038
+Training: 2022-06-03 16:12:18,799-[lfw][295672]Accuracy-Flip: 0.99667+-0.00224
+Training: 2022-06-03 16:12:18,799-[lfw][295672]Accuracy-Highest: 0.99667
+Training: 2022-06-03 16:12:27,317-rank_id: 0
+Training: 2022-06-03 16:12:27,317-Running on: lfw_align_112_png_beauty05
+Training: 2022-06-03 16:16:20,547-[lfw][295672]Sum of Euclidean dists: 3341.992669
+Training: 2022-06-03 16:16:20,551-[lfw][295672]XNorm: 23.132724
+Training: 2022-06-03 16:16:20,551-[lfw][295672]Accuracy-Flip: 0.96950+-0.03833
+Training: 2022-06-03 16:16:20,551-[lfw][295672]Accuracy-Highest: 0.96950
+Training: 2022-06-03 16:16:29,273-rank_id: 0
+Training: 2022-06-03 16:16:29,273-Running on: lfw_align_112_png_beauty06
+Training: 2022-06-03 16:20:17,320-[lfw][295672]Sum of Euclidean dists: 3355.190222
+Training: 2022-06-03 16:20:17,323-[lfw][295672]XNorm: 23.131969
+Training: 2022-06-03 16:20:17,323-[lfw][295672]Accuracy-Flip: 0.99233+-0.00351
+Training: 2022-06-03 16:20:17,323-[lfw][295672]Accuracy-Highest: 0.99233
+Training: 2022-06-03 16:20:25,492-rank_id: 0
+Training: 2022-06-03 16:20:25,493-Running on: lfw_align_112_png_beauty07
+Training: 2022-06-03 16:24:04,030-[lfw][295672]Sum of Euclidean dists: 3397.584458
+Training: 2022-06-03 16:24:04,032-[lfw][295672]XNorm: 23.126708
+Training: 2022-06-03 16:24:04,032-[lfw][295672]Accuracy-Flip: 0.97883+-0.03402
+Training: 2022-06-03 16:24:04,032-[lfw][295672]Accuracy-Highest: 0.97883

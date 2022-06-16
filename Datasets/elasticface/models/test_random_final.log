@@ -1,0 +1,5 @@
+Training: 2022-06-06 19:14:34,731-Running on: lfw_align_112_png_beauty_random_final
+Training: 2022-06-06 19:18:05,942-[lfw][295672]Sum of Euclidean dists: 3166.544380
+Training: 2022-06-06 19:18:05,946-[lfw][295672]XNorm: 23.113679
+Training: 2022-06-06 19:18:05,946-[lfw][295672]Accuracy-Flip: 0.99567+-0.00281
+Training: 2022-06-06 19:18:05,946-[lfw][295672]Accuracy-Highest: 0.99567
