@@ -40,7 +40,7 @@ The Instagram camera must be opened through the "new story" icon on the applicat
 
 **--dataset** is the path of the dataset that the user wants to filter through OpenFilter.  
 **--output** is the path where the filtered images are saved. Both the dataset and the output folders should be organized in sub-directories. Through our code, all the images in a sub-directory are filtered with the same filter. Once the images in a sub-folder are all processed, the system moves on to the next sub-folder, applying the next filter (following the pre-saving order on the social media interface).  
-**--n_filters (default = 8)** is the number of pre-saved filters (targeted by the user).  
+**--n_filters (default=8)** is the number of pre-saved filters (targeted by the user).  
 **--move_right (default=False)** is the direction to follow for changing the filter (i.e. the order in which they have been pre-saved on the application). In our experiments, we have used 8 filters, showed in the Instagram interface, from right (filter 0) to left (filter 7). In the image above, you can notice we start the script from our first filter (Pretty by @herusugiarta), with the others located on its left. 
 
 We strongly encourage our readers to deactivate notifications while running OpenFilter. Sudden pop-ups could damage the final results. OpenFilter saves the filtered images by taking screenshot, rather than downloading the image directly from the application. This is motivated by the will of accelerating the process: very often, images treated with AR filters are downloaded as videos, causing remarkable delays in the saving process. OpenFilter is designed to filter large collection of images and, as a consequence, the fluidity of the system is one of the main requirements.
