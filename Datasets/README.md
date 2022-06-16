@@ -1,6 +1,6 @@
 # Beautified Datasets
 
-Our beautified datasets are available [online](https://fairbeauty.z6.web.core.windows.net/) and shared with license CC BY-NC 4.0.
+Our beautified datasets are available [online](https://fairbeauty.z6.web.core.windows.net/).
 
 ## FairBeauty
 FairBeauty is a beautified version of the [FairFace dataset](https://github.com/joojs/fairface), a dataset promoting algorithmic fairness in Computer Vision systems. The choice of this dataset is motivated by its focus on diversity and our will to be representative of the population of Instagram, without biasing the results. Eight popular, AR beauty filters are applied on equal portions of the original dataset.
