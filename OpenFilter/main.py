@@ -12,6 +12,15 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
+We explicly request to always consider the ethical implications 
+of the technology and to avoid unethical uses or applications. 
+
+EXCEPTION (dual license):
+
+Users interested in using the code for commercial purposes are asked 
+to contact the authors for an explicit authorization. The authors will
+evaluate the ethical implications for each case.
+
 contact information: piera@ellisalicante.org
 """
 
