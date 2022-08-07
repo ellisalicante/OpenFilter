@@ -63,5 +63,5 @@ The script will print to console a list of identified errors, making a distincti
 ## 2. License and attribution
 The framework and the datasets are part of a scientific paper currently under review for the 36th Conference on Neural Information Processing Systems (NeurIPS 2022) Track on Datasets and Benchmarks., under the title "OpenFilter: A Framework to Democratize Research Access to Social Media AR Filters", by Piera Riccio, Bill Psomas, Francesco Galati, Francisco Escolano, Thomas Hofmann and Nuria Oliver.
 
-The code of OpenFilter is shared under GNU General Public License, version 2.
+The code for **OpenFilter** is shared under a dual license. For non-commercial purposes, the [GNU General Public License, version 2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html) applies. Users interested in using the code for commercial purposes are asked to contact the authors for an explicit authorization. The authors will evaluate the ethical implications for each case.
 
