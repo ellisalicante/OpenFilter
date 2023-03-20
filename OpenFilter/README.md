@@ -12,7 +12,7 @@ A pipeline of the sketch is provided in the figure below.
 The Android emulator runs on the machine, where the social media application targeted in the research is installed. In the emulator, the researcher may access any available AR filter of the social media platform. Most of these filters can only be applied on live images from the camera. To overcome this limitation, the virtual webcam projects the existing image dataset on the camera enabling the application of the AR filters on it. The process is automatized through an auto-clicker system: each image is first projected on the camera; next, the filter is applied to the image and finally the filtered image is saved on disk. OpenFilter processes an image every 4 seconds on a Intel(R) Core(TM) i7-8565U machine with NVIDIA GeForce MX150, i.e. around 900 images per hour and 22,000 per day. 
 
 ## 1. Instructions for use
-(also available as a [video tutorial](https://drive.google.com/drive/u/1/folders/16-5wecynAAO5snkwR-2zYpdEpNydIyTx))
+(also available as a [video tutorial](https://youtu.be/LUGmsHcLR5o))
 #### 1.1 Installation
 In our implementation, we run OpenFilter using BlueStacks 5.7 (www.bluestacks.com) as Android emulator. On the virtual phone, researchers can download any targeted social media application (in our implementation, we refer to Instagram). Once the application is downloaded, the researcher should log in or create a new account, saving the targeted AR filters among the favorites. In addition, they should also download ManyCam 7.10 (www.manycam.com), a virtual camera software. The aim of this virtual camera is to by-pass the issue related to the application of AR-based filters on existing images. 
 
