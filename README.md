@@ -1,6 +1,6 @@
 # OpenFilter: A Framework to Democratize Research Access to Social Media AR Filters
 
-This repo contains the official PyTorch implementation and benchmark datasets of our NeurIPS 2022 paper - **OpenFilter: A Framework to Democratize Research Access to Social Media AR Filters**. [[`arXiv`](https://arxiv.org/abs/2106.04990)] [[`OpenReview`](https://openreview.net/forum?id=ZKy2X3dgPA)] [[`slides`](http://users.ntua.gr/psomasbill/OpenFilter_NeurIPS2022_slides.pdf)] [[`poster`](http://users.ntua.gr/psomasbill/OpenFilter_NeurIPS2022_poster.pdf)]
+This repo contains the official PyTorch implementation and benchmark datasets of our NeurIPS 2022 paper - **OpenFilter: A Framework to Democratize Research Access to Social Media AR Filters**. [[`arXiv`](https://arxiv.org/pdf/2207.12319)] [[`OpenReview`](https://openreview.net/forum?id=VF9f79cCYdZ)] [[`slides`](http://users.ntua.gr/psomasbill/OpenFilter_NeurIPS2022_slides.pdf)] [[`poster`](http://users.ntua.gr/psomasbill/OpenFilter_NeurIPS2022_poster.pdf)]
 
 <div align="center">
   <img width="80%" alt="OpenFilter dataset illustration" src=".github/openfilter.PNG">
